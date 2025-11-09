@@ -293,7 +293,7 @@ section {
         max-width: 95rem;
     }
 }
-    .bn632-hover {
+.bn632-hover {
   width: 160px;
   font-size: 16px;
   font-weight: 600;
@@ -322,7 +322,6 @@ section {
 .bn632-hover:focus {
   outline: none;
 }
-
 .bn632-hover.bn19 {
   background-image: linear-gradient(
     to right,
@@ -334,5 +333,6 @@ section {
   box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
 }
 }
+
 
 
