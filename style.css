@@ -186,53 +186,6 @@ h2.font-serif {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Button hover effects */
-a[class*="bg-rose-gold"],
-button[class*="bg-rose-gold"] {
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
-    border: none;
-    outline: none;
-    will-change: transform, box-shadow;
-    box-shadow: 0 4px 6px rgba(229, 77, 36, 0.2);
-}
-
-a[class*="bg-rose-gold"]:hover,
-button[class*="bg-rose-gold"]:hover,
-a[class*="bg-rose-gold"]:focus,
-button[class*="bg-rose-gold"]:focus {
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 8px 15px rgba(229, 77, 36, 0.3);
-}
-
-a[class*="bg-rose-gold"]:active,
-button[class*="bg-rose-gold"]:active {
-    transform: translateY(1px);
-    box-shadow: 0 2px 5px rgba(229, 77, 36, 0.3);
-}
-
-a[class*="bg-rose-gold"]::after,
-button[class*="bg-rose-gold"]::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, 
-        rgba(255,255,255,0.1) 0%, 
-        rgba(255,255,255,0.3) 50%, 
-        rgba(255,255,255,0.1) 100%);
-    transform: translateX(-100%) skewX(-15deg);
-    transition: transform 0.6s ease;
-}
-
-a[class*="bg-rose-gold"]:hover::after,
-button[class*="bg-rose-gold"]:hover::after {
-    transform: translateX(150%) skewX(-15deg);
-}
-
 /* Focus styles for accessibility */
 a[class*="bg-rose-gold"]:focus-visible,
 button[class*="bg-rose-gold"]:focus-visible {
@@ -341,3 +294,4 @@ section {
     }
 }
 }
+
